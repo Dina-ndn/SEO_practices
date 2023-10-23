@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+  rel="stylesheet"
+/>
+
+<!-- <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 16px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .header {
+
+        background-image: url(/html_host/images/background_color.jpg);
+        background-size: cover;
+        height: 30%;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+
+
+</style> -->
+
+<div class="topnav" id="myTopnav">
+    <a href="/index.html" class="active">Home</a>
+    <a href="/form.html">Form</a>
+    <a href="/map.html">Contact</a>
+    <a href="/productcard.html">Product Card</a>
+    <a href="/3D.html">3D Image</a>
+    <a id="foo" class="icon" >
+        <i class="fa fa-bars"></i>
+    </a>
+    <script>
+        document.getElementById('foo').addEventListener('click', event => {
+  // event holds the event's additional data 
+  var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+});
+
+    </script>
+</div>
+<header>
+<div class="header" id="myHeader">
+    <h1>Mission Title</h1>
+    <p>Write your title here</p>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+</div>
+</header>
+
+</template>
